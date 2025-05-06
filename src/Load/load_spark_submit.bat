@@ -2,7 +2,7 @@
 
 if "%~1"=="" (
     echo Please provide the name of the Spark script to submit.
-    echo Usage: submit_spark_job.bat your_script.py
+    echo Usage: load_spark_submit.bat your_script.py    
     exit /b 1
 )
 
